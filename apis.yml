@@ -1,8 +1,24 @@
 aid: safe-superintelligence
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/safe-superintelligence.png
 name: Safe Superintelligence
-description: 'Safe Superintelligence is a company surfaced as a portfolio company of a16z and added to
-  the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Safe Superintelligence Inc. (SSI) is an AI research lab founded in 2024 by Ilya Sutskever,
+  Daniel Gross, and Daniel Levy, with offices in Palo Alto and Tel Aviv. The company describes safe
+  superintelligence as its single mission, sole focus, and "entire product roadmap," and is assembling
+  a lean team of engineers and researchers dedicated to it and nothing else. SSI raised $1B in a Series A
+  from NFDG, a16z, Sequoia, DST Global, and SV Angel; Ilya Sutskever serves as CEO and Daniel Levy as
+  President. The company publishes no public API, developer platform, or technical documentation as of
+  this enrichment pass — this profile captures its identity and domain security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/safe-superintelligence/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Ai
+- Artificial Intelligence
+- Machine Learning
+- AI Safety
+- Research
+- Superintelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +45,14 @@ maintainers:
 common:
 - type: Website
   url: https://ssi.inc
+- type: Blog
+  url: https://ssi.inc/updates
+- type: Support
+  url: https://ssi.inc/contact
+- type: DomainSecurity
+  url: security/safe-superintelligence-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
